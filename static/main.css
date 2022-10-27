@@ -1,0 +1,69 @@
+/*
+input[type='file'] {
+    color: rgba(0, 0, 0, 0.75)
+    }
+/* #id_docfile {display: none;} /* hide the original upload files button from Django forms, enable it back for testing*/
+@font-face {
+    font-family: 'msgothic';
+    src: url(/static/_FNT/msgothic.woff2) format('woff2');
+    font-display: block;
+}
+body {
+    font-family: 'msgothic';
+    font-size: 1.334rem;
+    text-align: center;
+}
+.filePath {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul {
+    list-style-type: none;
+}
+input {
+    font-family: 'msgothic';
+    font-size: 1.334rem;
+}
+.button {
+    border-radius: 4px;
+    padding: 10px;
+    margin: 20px 5px 12px 5px;
+    background-color: rgba(128,0,128,0.5);
+    box-shadow: 0 0 3px black;
+    display: inline-block;
+    }
+.button:hover {
+    cursor: pointer;
+    }
+a.button {
+    text-decoration: none;
+    color: black;
+    }
+.delete {
+    color: white;
+    background-color: rgba(255,0,0,0.75);
+}
+.dropzone:active{
+  border-color:DimGrey;
+  color:DimGrey;
+}
+.hide {
+    display: none;
+}
+.red {
+    color:red;
+    font-weight: bolder;
+}
+#error, #info {
+    margin: 1em;
+}
+.counters {
+    font-weight: bolder;
+    color: rgb(0,0,40);
+}
+#error {
+    color: rgb(128,0,0);
+    font-weight: bolder;
+}
+#error.counters {
+    color: rgb(128,0,20);
+}
